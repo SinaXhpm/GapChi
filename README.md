@@ -1,4 +1,4 @@
-# SinChi
+# GapChi
 A Bot Source For Seen  (New Tg)
 
 # Install - دستور نصب
