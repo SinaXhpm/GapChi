@@ -55,15 +55,6 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo luarocks install Lua-cURL
  cd ..
 }
-function chmod_SinChi() {
- sudo chmod +x sinchi.sh
- sudo chmod +x tg
- sudo chmod +x sinchi-0.sh
- sudo chmod +x on.sh
- sudo chmod +x off.sh
- sudo chmod +x auto.sh
- sudo chmod +x update.sh
-}
 function python_SinChi() {
  sudo apt-get install python-setuptools python-dev build-essential -y 
  sudo easy_install pip 
@@ -74,9 +65,15 @@ logo1_SinChi
 install_Sinchi
 luarocks_SinChi
 python_SinChi
-chmod_SinChi
 clear
  echo -n "" > sudo.lua
   read -p "What is your User Id? " -e input
  echo "sudo={111795059,$input}" >> sudo.lua
+  sudo chmod +x sinchi.sh
+ sudo chmod +x tg
+ sudo chmod +x sinchi-0.sh
+ sudo chmod +x on.sh
+ sudo chmod +x off.sh
+ sudo chmod +x auto.sh
+ sudo chmod +x update.sh
 logo2_SinChi
