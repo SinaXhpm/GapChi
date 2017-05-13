@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd $HOME/SinChi
+cd $HOME/GapChi
 red() {
   printf '\e[1;31m%s\n\e[0;39;49m' "$@"
 }
