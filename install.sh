@@ -56,13 +56,13 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  cd ..
 }
 function chmod_SinChi() {
- chmod +x sinchi.sh
- chmod +x tg
- chmod +x sinchi-0.sh
- chmod +x on.sh
- chmod +x off.sh
- chmod +x auto.sh
- chmod +x update.sh
+ sudo chmod +x sinchi.sh
+ sudo chmod +x tg
+ sudo chmod +x sinchi-0.sh
+ sudo chmod +x on.sh
+ sudo chmod +x off.sh
+ sudo chmod +x auto.sh
+ sudo chmod +x update.sh
 }
 function python_SinChi() {
  sudo apt-get install python-setuptools python-dev build-essential -y 
