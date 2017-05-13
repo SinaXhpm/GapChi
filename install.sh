@@ -13,11 +13,11 @@ aa() {
  sudo apt-get install
 }
 function logo1_SinChi() {
-green "     >>>>               Welcome to SinChi bot                         <<<<      "
+green "     >>>>               Welcome to GapChi bot                         <<<<      "
 white "     >>>>             I wanna install it for you                      <<<<      "
 }
 function logo2_SinChi() {
-green "     >>>>            SinChi successfully installed                    <<<<      "
+green "     >>>>            GapChi successfully installed                    <<<<      "
 white "     >>>>            Run this command for launch bot                  <<<<      "
 red   "     >>>>                   ./sinchi-0.sh                             <<<<      "
 green   "                      ****************************                                  "
@@ -61,7 +61,6 @@ function chmod_SinChi() {
  chmod +x sinchi-0.sh
  chmod +x on.sh
  chmod +x off.sh
- chmod +x auto.sh
  chmod +x update.sh
 }
 function python_SinChi() {
